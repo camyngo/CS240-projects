@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+<!--    how to make the android connecting to the internet-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--        include a list of activity so that we can use later on-->
+        <activity android:name=".PersonActivity"/>
+        <activity android:name=".SettingActivity"/>
+        <activity android:name=".MapActivity"/>
+        <activity android:name=".FilterActivity"/>
+        <activity android:name=".SearchActivity"/>
+        <activity android:name=".EventActivity"/>
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyBDK14tZkyk3bUUC14SfOlHkdz12ayh25w"/>
+    </application>
+
+</manifest>
