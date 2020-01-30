@@ -28,9 +28,11 @@ public class EvilHangman {
     }
 
     public static void runGame(EvilHangmanGame game, int guesses, boolean isWon, Scanner myScanner, int wordLength) throws IOException,EmptyDictionaryException,GuessAlreadyMadeException {
+        int guess_copy = guesses;
         while (guesses > 0) {
+            if (guesses > 26) guesses = 26;
             //print how many guess
-            if (guesses > 1) System.out.println("\nYou have " + guesses + " guesses remaining.");
+            if (guess_copy > 1) System.out.println("\nYou have " + guess_copy + " guesses remaining.");
             else System.out.println("\nYou have 1 guess remaining.");
 
             //printing all the use letters
@@ -50,43 +52,40 @@ public class EvilHangman {
             try {
                 guessedWords = game.makeGuess(myguess);
                 guesses --;
-            } catch (GuessAlreadyMadeException e) {
-                System.out.println(e);
-            }
-
-            int num = 0;
-            for (int i = 0; i < wordLength; i++){
-                if (game.getWordKey()[i] == myguess) {
-                    num++;
+                int num = 0;
+                for (int i = 0; i < wordLength; i++){
+                    if (game.getWordKey()[i] == myguess) {
+                        num++;
+                    }
                 }
-            }
-            //else
-            if (num == 0){
-                System.out.println("Sorry, there are no " + myguess + "\'s");
-            }
-            else{
-                System.out.println("Yes, there exists " + num + " " + myguess+ "\'s");
-            }
+                //elsea
+                if (num == 0){
+                    System.out.println("Sorry, there are no " + myguess + "\'s");
+                    guess_copy--;
+                }
+                else{
+                    System.out.println("Yes, there exists " + num + " " + myguess+ "\'s");
+                }
 
-            if (guesses == 0) {
+            } catch (GuessAlreadyMadeException e){}
+
+            boolean guessedAll = true;
+            if (guesses == 0 || !keywordHasDash(game,wordLength)){
                 String winningWord = null;
-                // pass all the guess word
                 for (String word : guessedWords) {
                     winningWord = word;
                     break;
                 }
-                boolean guessedAll = true;
                 for (int i = 0; i < wordLength; i++) {
                     if (!game.getGuessedLetters().contains(winningWord.charAt(i)))
                         guessedAll = false;
                 }
-                //check that he guessed all the letters
-                if (guessedAll) {
+                if(guessedAll){
+                    guesses = 0;
                     isWon = true;
                     System.out.println("You Won!");
                     System.out.println("The correct word was " + winningWord);
                 }
-
                 if (!isWon){
                     for (String word: game.getMySet()){
                         winningWord = word;
@@ -97,6 +96,20 @@ public class EvilHangman {
             }
         }
         myScanner.close();
+    }
+
+    private static boolean keywordHasDash(EvilHangmanGame game, int wordLength) {
+        //get the game keyword
+        game.getWordKey();
+        char [] wordkey;
+        //loop through to see if there is a '-'
+        for(int i = 0; i < game.getWordKey().length; i++){
+            //if dash return true
+            if (game.getWordKey()[i] == '-')
+                return true;
+        }
+        //else return false after loop
+        return false;
     }
 
     private static char promptGuess(char guess) throws IOException {
