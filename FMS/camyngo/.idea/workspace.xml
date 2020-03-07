@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03a4e0a9-8954-47de-b6fc-63ca996e38dd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="FMServerDatabase" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ProjectId" id="1SNsZynp3u5yCRq9FRcsN9i3klZ" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Family-Map-Server-master/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\camyngo\Family-Map-Server-master\src\results" />
+      <recent name="C:\Users\HP\Desktop\camyngo\Family-Map-Server-master\src\services" />
+      <recent name="C:\Users\HP\Desktop\camyngo\Family-Map-Server-master\libs" />
+      <recent name="C:\Users\HP\Desktop\camyngo\Family-Map-Server-master\res" />
+      <recent name="C:\Users\HP\Desktop\Family-Map-Server-master\Family-Map-Server-master" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="Family-Map-Server-master" />
+      <option name="PROGRAM_PARAMETERS" value="8080" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Family-Map-Server-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="serviceTests.LoadServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Family-Map-Server-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="serviceTests.LoginServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Family-Map-Server-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="serviceTests.PersonServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Family-Map-Server-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="serviceTests.RegisterServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.LoadServiceTest" />
+      <item itemvalue="JUnit.LoginServiceTest" />
+      <item itemvalue="JUnit.PersonServiceTest" />
+      <item itemvalue="JUnit.RegisterServiceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.RegisterServiceTest" />
+        <item itemvalue="JUnit.PersonServiceTest" />
+        <item itemvalue="JUnit.LoginServiceTest" />
+        <item itemvalue="JUnit.LoadServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a4e0a9-8954-47de-b6fc-63ca996e38dd" name="Default Changelist" comment="" />
+      <created>1571415446919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571415446919</updated>
+      <workItem from="1571415450457" duration="8739000" />
+      <workItem from="1571801347412" duration="2063000" />
+      <workItem from="1572224659992" duration="20308000" />
+      <workItem from="1572470570828" duration="40000" />
+      <workItem from="1572561322641" duration="817000" />
+      <workItem from="1572563616046" duration="253000" />
+      <workItem from="1572564792847" duration="35000" />
+      <workItem from="1572565190004" duration="180000" />
+      <workItem from="1572582396420" duration="912000" />
+      <workItem from="1572590069118" duration="2695000" />
+      <workItem from="1572627117134" duration="1756000" />
+      <workItem from="1572637416817" duration="13246000" />
+      <workItem from="1572730066746" duration="52426000" />
+      <workItem from="1573023263558" duration="123000" />
+      <workItem from="1574124600737" duration="270000" />
+      <workItem from="1574126944082" duration="7180000" />
+      <workItem from="1574198207235" duration="2362000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/daoTests/PersonDaoTest.java</url>
+          <line>76</line>
+          <properties class="daoTests.PersonDaoTest" method="findSinglePerson">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/daoTests/DataBaseManagerTest.java</url>
+          <line>26</line>
+          <properties class="daoTests.DataBaseManagerTest" method="clearTables">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/serviceTests/ClearServiceTest.java</url>
+          <line>10</line>
+          <properties class="serviceTests.ClearServiceTest" method="clearDbTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/serviceTests/FillServiceTest.java</url>
+          <line>52</line>
+          <properties class="serviceTests.FillServiceTest" method="fillFail">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/daoTests/PersonDaoTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/serviceTests/RegisterServiceTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/serviceTests/ClearServiceTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/tests/serviceTests/LoginServiceTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/src/handlers/LoadHandler.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/src/handlers/LoadHandler.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/src/handlers/LoadHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/src/handlers/LoadHandler.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Family-Map-Server-master/src/server/Server.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
